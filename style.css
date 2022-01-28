@@ -1,0 +1,168 @@
+h1,h2,h3{
+    font-style: arial;
+    color:rgb(2, 0, 3);
+}
+
+p{
+    font-style: arial;
+}
+
+.mission { 
+    font-size: 40px;
+    text-align: center;
+}
+
+
+
+
+#navbar{
+    background-color:darkgray;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+ 
+#navbar a{
+    color:white;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#navbar a:hover{
+    color: blue;
+}
+
+
+
+.text{
+    font-style: arial;
+    font-size: 20px;
+}
+
+.image {
+    display:flex;
+    justify-content:left;
+    width: 20%;
+}
+/* this will only change the logo */
+
+
+
+/* img {
+    display:flex;
+    justify-content:center;
+    width:100%;
+} */
+/* this will affect ALL images on your page */
+
+
+.logo {
+    display: flex;
+    justify-content: left;
+    width: 10%;
+    padding-top: 2cm;
+}           
+ 
+
+.map {
+    display:flex;
+    justify-content: center;
+    width: 80%;
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* img {
+    max-width: 100%;
+  } */
+  .email {
+    flex-basis: 5%;
+    padding-top: 1cm;
+    justify-content: center;
+  }
+  .textaddress {
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 1cm;
+  }
+
+ 
+
+  /* .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  img {
+    max-width: 100%;
+  }
+  .exercisetime {
+    flex-basis: 5%;
+    padding-top: 1cm;
+  }
+  .feedingtime {
+    padding-left: 20px;
+    padding-top: 1cm;
+    justify-content: center;
+  }
+.hello {
+    padding-left: 20px;
+    padding-top: 1cm; */
+
+/* .row { 
+    display: flex;
+  } */
+  
+  /* Create three equal columns that sits next to each other */
+ 
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+    padding-top: 2cm;
+} 
+
+.column {
+  display:flex; 
+  padding: 10px;
+} 
+/* .img {
+    display:flex;
+    height:auto;
+    max-width:100%; */
+  .img {
+  display:flex;
+  max-height: 100%;
+  max-width: 100%;
+  height: 800px;
+  width: auto;
+}
+
+.hello {
+    display:flex; 
+    height:auto;
+    padding-top: 2cm;
+    max-width:auto
+}
+
+.exercisetime {
+    display:flex;
+    height:auto;
+    padding-top: 2cm;
+    max-width: auto;
+    }
+
+.feedingtime {
+    display: flex;
+    height:auto;
+    padding-top: 2cm;
+}
+.container img{
+  height:500px;
+}
